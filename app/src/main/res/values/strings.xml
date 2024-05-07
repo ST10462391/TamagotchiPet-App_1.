@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tamagotchi App</string>
+    <string name="feed_thank_you">thank you</string>
+    <string name="play_with_me">play with me</string>
+    <string name="clean_nice_and_clean">nice and clean</string>
+    <string name="play_that_was_fun">that was fun</string>
+    <string name="clean_after_playing">clean after playing</string>
+</resources>

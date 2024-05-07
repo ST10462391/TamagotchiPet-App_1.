@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="385dp"
+        android:layout_height="350dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginTop="104dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="146dp"
+        app:layout_constraintBottom_toTopOf="@+id/start button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/my_pet_app" />
+
+    <Button
+        android:id="@+id/start button"
+        android:layout_width="191dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginEnd="231dp"
+        android:layout_marginBottom="199dp"
+        android:text="START"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="268dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="231dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="183dp"
+        android:layout_marginBottom="85dp"
+        android:text="Hi , I'm Nicky your pet "
+        android:textColor="#373708"
+        android:textSize="24sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/start button" />
+</androidx.constraintlayout.widget.ConstraintLayout>
